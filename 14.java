@@ -13,7 +13,7 @@ class Ideone
 	Scanner s=new Scanner(System.in);
 	a=s.nextInt();
 	b=s.nextInt();
-	for(c=a;c>=a&&c<=b;c++)
+	for(c=a+1;c>a&&c<b;c++)
 	{
 	n=c%2;
 	if(n!=0)
