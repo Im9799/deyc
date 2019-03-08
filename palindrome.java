@@ -20,8 +20,8 @@ class Ideone
             num /=10;
         }
         if (original==reverse)
-            System.out.println(original+" is a palindrome.");
+            System.out.println("yes");
         else
-            System.out.println(original+" is not a palindrome.");
+            System.out.println("no");
 	}
 }
